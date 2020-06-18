@@ -23,7 +23,7 @@ $(window).scroll(function () {
             }
             $("header a:first")
                 .stop()
-                .css({ padding: "0.5rem", margin: "0.5rem ", width: "120px" });
+                .css({ padding: "0.5rem", margin: "0.5rem ", width: "160px" });
         } else {
             if ($("#site-header-main").data("size") == "small") {
                 $("#site-header-main").data("size", "big");
@@ -35,8 +35,8 @@ $(window).scroll(function () {
                 );
                 $("header a:first")
                     .stop()
-                    .css({ padding: "2%", margin: "3%", width: "38%" })
-                    .animate({ width: "38%" });
+                    .css({ padding: "2%", margin: "3%" })
+                    .animate({ width: "38%" }, 200);
             }
         }
     }
