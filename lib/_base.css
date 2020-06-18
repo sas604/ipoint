@@ -37,6 +37,7 @@ h1 {
     letter-spacing: 1px;
     color: var(--red);
     margin: 1.5rem 1rem 0;
+    text-transform: capitalize;
 
     @media (--medium) {
         margin: 6% 0 1.5rem;

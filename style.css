@@ -473,37 +473,36 @@ body {
     padding: 2rem 1rem 2rem 1.5rem;
     font-size: 1.3rem;
     line-height: 150%;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.6px
 }
 
-.content :link,
-.content :visited {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+.content :link,.content :visited {
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content :-webkit-any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content :-moz-any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content :any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .btn {
     height: 50px;
@@ -521,13 +520,15 @@ h1 {
     color: #c2272c;
     color: var(--red);
     margin: 1.5rem 1rem 0;
+    text-transform: capitalize
 }
 
 @media (min-width: 748px) {
-    h1 {
-        margin: 6% 0 1.5rem;
-    }
+
+h1 {
+        margin: 6% 0 1.5rem
 }
+    }
 
 article {
     margin: 1.5rem 0;
@@ -566,32 +567,33 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 #site-header-main a {
-    padding: 1rem;
-    width: 250px;
-    display: block;
-}
+        padding: 1rem;
+        width: 250px;
+        display: block;
+    }
 
 @media (min-width: 748px) {
-    #site-header-main {
+
+#site-header-main {
         height: 50vh;
         max-height: 375px;
         min-height: 0;
         background-size: cover;
         position: -webkit-sticky;
         position: sticky;
-        top: 0;
-    }
-    #site-header-main a {
-        padding: 1rem;
-        width: 38%;
-        display: block;
-        transition: 0.2s;
-    }
+        top: 0
 }
+        #site-header-main a {
+            padding: 1rem;
+            width: 38%;
+            display: block;
+            transition: 0.2s;
+        }
+    }
 
 .bar1,
 .bar2,
@@ -606,7 +608,7 @@ p {
 
 #global {
     padding-top: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.8902);
+    background-color: rgba(0,0,0,0.8902);
     color: white;
     overflow: hidden;
     transition: 0.5s;
@@ -618,63 +620,63 @@ p {
     margin-left: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
-#global :link,
-#global :visited {
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 0 0 1rem;
-    line-height: 3rem;
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
-}
+#global :link,#global :visited {
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 0 0 1rem;
+        line-height: 3rem;
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
 
 #global :-webkit-any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 0 0 1rem;
-    line-height: 3rem;
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 0 0 1rem;
+        line-height: 3rem;
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
 
 #global :-moz-any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 0 0 1rem;
-    line-height: 3rem;
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 0 0 1rem;
+        line-height: 3rem;
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
 
 #global :any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 0 0 1rem;
-    line-height: 3rem;
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 0 0 1rem;
+        line-height: 3rem;
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
 
 #global li {
-    margin: 0 0.8rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.14118);
-    display: flex;
-    align-items: baseline;
-}
+        margin: 0 0.8rem;
+        border-top: 1px solid rgba(255,255,255,0.14118);
+        display: flex;
+        align-items: baseline;
+    }
 
 @media (min-width: 748px) {
-    #global {
+
+#global {
         position: fixed;
         height: auto;
         width: auto;
@@ -683,41 +685,41 @@ p {
         background-color: transparent;
         margin-top: 2rem;
         margin-left: 0;
-        margin-right: 3%;
-    }
-    #global ul {
-        display: flex;
-        justify-content: flex-end;
-    }
-    #global ul.contact {
-        display: none;
-    }
-    #global li {
-        border: none;
-        margin: 0 0.3rem;
-    }
-    #global :link,
-    #global :visited {
-        line-height: 3rem;
-        padding-bottom: 0.5rem;
-        line-height: 120%;
-    }
-    #global :-webkit-any-link {
-        line-height: 3rem;
-        padding-bottom: 0.5rem;
-        line-height: 120%;
-    }
-    #global :-moz-any-link {
-        line-height: 3rem;
-        padding-bottom: 0.5rem;
-        line-height: 120%;
-    }
-    #global :any-link {
-        line-height: 3rem;
-        padding-bottom: 0.5rem;
-        line-height: 120%;
-    }
+        margin-right: 3%
 }
+        #global ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+        #global ul.contact {
+            display: none;
+        }
+
+        #global li {
+            border: none;
+            margin: 0 0.3rem;
+        }
+        #global :link,#global :visited {
+            line-height: 3rem;
+            padding-bottom: 0.5rem;
+            line-height: 120%;
+        }
+        #global :-webkit-any-link {
+            line-height: 3rem;
+            padding-bottom: 0.5rem;
+            line-height: 120%;
+        }
+        #global :-moz-any-link {
+            line-height: 3rem;
+            padding-bottom: 0.5rem;
+            line-height: 120%;
+        }
+        #global :any-link {
+            line-height: 3rem;
+            padding-bottom: 0.5rem;
+            line-height: 120%;
+        }
+    }
 
 #global.open {
     transform: translateX(-100vw);
@@ -746,14 +748,15 @@ p {
     margin: 1rem;
     z-index: 12;
     width: 40px;
-    height: 40px;
+    height: 40px
 }
 
 @media (min-width: 748px) {
-    .burger {
-        display: none;
-    }
+
+.burger {
+        display: none
 }
+    }
 
 .openb {
     position: fixed;
@@ -773,12 +776,12 @@ p {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-#global ul.contact :link,
-#global ul.contact :visited {
+#global ul.contact :link,#global ul.contact :visited {
     display: block;
     font-size: 0.8rem;
     color: gray;
     text-transform: none;
+    line-height: 150%;
 }
 
 #global ul.contact :-webkit-any-link {
@@ -786,6 +789,7 @@ p {
     font-size: 0.8rem;
     color: gray;
     text-transform: none;
+    line-height: 150%;
 }
 
 #global ul.contact :-moz-any-link {
@@ -793,6 +797,7 @@ p {
     font-size: 0.8rem;
     color: gray;
     text-transform: none;
+    line-height: 150%;
 }
 
 #global ul.contact :any-link {
@@ -800,11 +805,12 @@ p {
     font-size: 0.8rem;
     color: gray;
     text-transform: none;
+    line-height: 150%;
 }
 
 #global ul.contact a:hover {
     -webkit-text-decoration: nonel;
-    text-decoration: nonel;
+            text-decoration: nonel;
 }
 
 #global ul.contact li {
@@ -823,12 +829,12 @@ p {
     letter-spacing: 1px;
     font-weight: 700;
     font-weight: var(--fbold);
-    color: #848484;
+    color: #848484
 }
 
 .clients h2 {
-    text-align: center;
-}
+        text-align: center;
+    }
 
 section.clients ul {
     display: grid;
@@ -845,16 +851,16 @@ section.clients li {
     text-align: center;
     height: 20vw;
     max-height: 300px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc
 }
 
 section.clients li:last-of-type {
-    border-bottom: 1px solid #ccc;
-}
+        border-bottom: 1px solid #ccc;
+    }
 
 section.clients li:nth-last-of-type(2) {
-    border-bottom: 1px solid #ccc;
-}
+        border-bottom: 1px solid #ccc;
+    }
 
 .sempra {
     background: url("assets/partners/sempra.png");
@@ -910,212 +916,217 @@ section.clients li:nth-last-of-type(2) {
     font-size: 1rem;
     color: black;
     line-height: 130%;
-    margin: 2rem 0;
+    margin: 2rem 0
 }
 
 @media (min-width: 748px) {
-    .content-services li p {
-        font-size: 1.3rem;
-    }
+
+.content-services li p {
+        font-size: 1.3rem
 }
+    }
 
 @media (min-width: 992px) {
-    .content-services li p {
-        font-size: 1.5rem;
-    }
+
+.content-services li p {
+        font-size: 1.5rem
 }
+    }
 
 .content-services strong {
     font-weight: 700;
     font-weight: var(--fbold);
-    font-size: 1rem;
+    font-size: 1rem
 }
 
 @media (min-width: 748px) {
-    .content-services strong {
-        font-size: 1.3rem;
-    }
+
+.content-services strong {
+        font-size: 1.3rem
 }
+    }
 
 @media (min-width: 992px) {
-    .content-services strong {
-        font-size: 1.5rem;
-    }
+
+.content-services strong {
+        font-size: 1.5rem
 }
+    }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.8902);
-    padding: 3rem 1.5rem 1.5rem;
+    background-color: rgba(0,0,0,0.8902);
+    padding: 3rem 1.5rem 1.5rem
 }
 
 footer h3 {
-    font-size: 1.5rem;
-    font-family: clarendon-text-pro, serif;
-    font-family: var(--font-headings);
-    line-height: 126%;
-    letter-spacing: 1px;
-    margin-bottom: 1.5rem;
-    text-transform: capitalize;
-    color: white;
-}
+        font-size: 1.5rem;
+        font-family: clarendon-text-pro, serif;
+        font-family: var(--font-headings);
+        line-height: 126%;
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+        text-transform: capitalize;
+        color: white;
+    }
 
 @media (min-width: 748px) {
-    footer {
+
+footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
-    }
+        align-items: center
 }
+    }
 
 #contact li {
     padding: 0.5rem 0;
-    display: flex;
+    display: flex
 }
 
-#contact li :link,
-#contact li :visited {
-    display: block;
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-}
+#contact li :link,#contact li :visited {
+        display: block;
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+    }
 
 #contact li :-webkit-any-link {
-    display: block;
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-}
+        display: block;
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+    }
 
 #contact li :-moz-any-link {
-    display: block;
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-}
+        display: block;
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+    }
 
 #contact li :any-link {
-    display: block;
-    color: #f3f3f3;
-    color: var(--white);
-    text-decoration: none;
-}
+        display: block;
+        color: #f3f3f3;
+        color: var(--white);
+        text-decoration: none;
+    }
 
 #contact li a:hover {
-    color: #c2272c;
-    color: var(--red);
-}
+        color: #c2272c;
+        color: var(--red);
+    }
 
 #contact li i {
-    display: block;
-    margin-right: 0.5rem;
-    color: #f3f3f3;
-    color: var(--white);
-}
+        display: block;
+        margin-right: 0.5rem;
+        color: #f3f3f3;
+        color: var(--white);
+    }
 
 #social-media ul {
     display: flex;
     justify-content: center;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0
 }
 
 #social-media ul li {
-    margin: 0 0.8rem;
-}
+        margin: 0 0.8rem;
+    }
 
 #social-media ul i {
-    display: inline-block;
-    font-size: 2rem;
-    color: #f3f3f3;
-    color: var(--white);
-}
+        display: inline-block;
+        font-size: 2rem;
+        color: #f3f3f3;
+        color: var(--white);
+    }
 
 #social-media ul i:hover {
-    color: #c2272c;
-    color: var(--red);
-}
+        color: #c2272c;
+        color: var(--red);
+    }
 
 @media (min-width: 748px) {
-    #social-media ul {
+
+#social-media ul {
         margin: 0;
 
-        flex-wrap: wrap;
-    }
-    #social-media ul li {
-        justify-content: space-between;
-    }
+        flex-wrap: wrap
 }
+        #social-media ul li {
+            justify-content: space-between;
+        }
+    }
 
 #footer-nav {
-    margin-top: 1rem;
+    margin-top: 1rem
 }
 
 #footer-nav li {
-    margin-bottom: 0.5rem;
-}
+        margin-bottom: 0.5rem;
+    }
 
 #footer-nav h3 {
-    margin-bottom: 1.5rem;
-}
+        margin-bottom: 1.5rem;
+    }
 
-#footer-nav :link,
-#footer-nav :visited {
-    color: #f3f3f3;
-    color: var(--white);
-    font-size: 1.2rem;
-    text-decoration: none;
-}
+#footer-nav :link,#footer-nav :visited {
+        color: #f3f3f3;
+        color: var(--white);
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
 
 #footer-nav :-webkit-any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    font-size: 1.2rem;
-    text-decoration: none;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
 
 #footer-nav :-moz-any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    font-size: 1.2rem;
-    text-decoration: none;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
 
 #footer-nav :any-link {
-    color: #f3f3f3;
-    color: var(--white);
-    font-size: 1.2rem;
-    text-decoration: none;
-}
+        color: #f3f3f3;
+        color: var(--white);
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
 
 #footer-nav a:hover {
-    color: #c2272c;
-    color: var(--red);
-}
+        color: #c2272c;
+        color: var(--red);
+    }
 
 @media (min-width: 748px) {
-    #footer-nav {
+
+#footer-nav {
         order: 1;
-        width: 60%;
-    }
+        width: 60%
 }
+    }
 
 .f-brand {
     margin-top: 1.5rem;
     color: #f3f3f3;
-    color: var(--white);
+    color: var(--white)
 }
 
 .f-brand a {
-    margin: 0 auto;
-    width: 30%;
-    display: block;
-    margin-bottom: 0.5rem;
-}
+        margin: 0 auto;
+        width: 30%;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
 
 .f-brand h5 {
-    text-align: center;
-}
+        text-align: center;
+    }
 
 @media (min-width: 748px) {
     #contact {
@@ -1138,37 +1149,36 @@ footer h3 {
     padding: 2rem 1rem 2rem 1.5rem;
     font-size: 1.3rem;
     line-height: 150%;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.6px
 }
 
-.content-bio :link,
-.content-bio :visited {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+.content-bio :link,.content-bio :visited {
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content-bio :-webkit-any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content-bio :-moz-any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .content-bio :any-link {
-    text-decoration: none;
-    color: #c2272c;
-    color: var(--red);
-    padding-bottom: 0.15rem;
-}
+        text-decoration: none;
+        color: #c2272c;
+        color: var(--red);
+        padding-bottom: 0.15rem;
+    }
 
 .bio img {
     width: auto;
@@ -1230,12 +1240,12 @@ label {
     padding: 0.5rem;
     display: block;
     width: 400px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 label textarea {
-    display: block;
-}
+        display: block;
+    }
 
 input {
     display: block;
@@ -1349,8 +1359,7 @@ input {
 }
 
 @media (min-width: 1200px) {
-    #global :link,
-    #global :visited {
+    #global :link,#global :visited {
         font-size: 1.4rem;
     }
     #global :-webkit-any-link {

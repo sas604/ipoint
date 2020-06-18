@@ -56,6 +56,7 @@
         & ul.contact {
             display: none;
         }
+
         & li {
             border: none;
             margin: 0 0.3rem;
@@ -118,6 +119,7 @@
     font-size: 0.8rem;
     color: gray;
     text-transform: none;
+    line-height: 150%;
 }
 #global ul.contact a:hover {
     text-decoration: nonel;
