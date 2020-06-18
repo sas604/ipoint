@@ -1,0 +1,111 @@
+footer {
+    background-color: #000000e3;
+    padding: 3rem 1.5rem 1.5rem;
+    & h3 {
+        font-size: 1.5rem;
+        font-family: var(--font-headings);
+        line-height: 126%;
+        letter-spacing: 1px;
+        margin-bottom: 1.5rem;
+        text-transform: capitalize;
+        color: white;
+    }
+    @media (--medium) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+#contact li {
+    padding: 0.5rem 0;
+    display: flex;
+    & :any-link {
+        display: block;
+        color: var(--white);
+        text-decoration: none;
+    }
+    & a:hover {
+        color: var(--red);
+    }
+    & i {
+        display: block;
+        margin-right: 0.5rem;
+        color: var(--white);
+    }
+}
+#social-media ul {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    & li {
+        margin: 0 0.8rem;
+    }
+    & i {
+        display: inline-block;
+        font-size: 2rem;
+        color: var(--white);
+    }
+    & i:hover {
+        color: var(--red);
+    }
+
+    @media (--medium) {
+        margin: 0;
+
+        flex-wrap: wrap;
+        & li {
+            justify-content: space-between;
+        }
+    }
+}
+#footer-nav {
+    margin-top: 1rem;
+    & li {
+        margin-bottom: 0.5rem;
+    }
+    & h3 {
+        margin-bottom: 1.5rem;
+    }
+    & :any-link {
+        color: var(--white);
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    & a:hover {
+        color: var(--red);
+    }
+    @media (--medium) {
+        order: 1;
+        width: 60%;
+    }
+}
+.f-brand {
+    margin-top: 1.5rem;
+    color: var(--white);
+    & a {
+        margin: 0 auto;
+        width: 30%;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    & h5 {
+        text-align: center;
+    }
+}
+@media (--medium) {
+    #contact {
+        width: 60%;
+    }
+    #social-media {
+        order: -1;
+        width: 30%;
+    }
+
+    .f-brand a {
+        width: 99%;
+    }
+    .f-brand {
+        width: 30%;
+    }
+}

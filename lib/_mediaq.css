@@ -1,0 +1,104 @@
+@media (--medium) {
+    h1 {
+        font-size: 4rem;
+        margin: 4.5rem 10% 3.5rem;
+        max-width: 872px;
+    }
+
+    .content,
+    .content-services {
+        margin: 0 auto;
+        font-size: 1.5rem;
+        max-width: 900px;
+    }
+    .content-bio {
+        font-size: 1.5rem;
+    }
+
+    strong {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    section.clients ul {
+        max-width: 748px;
+        margin: 0 auto;
+    }
+
+    .content a:hover {
+        font-weight: 700;
+    }
+    #social-media ul {
+        justify-content: center;
+    }
+    #footer-nav {
+        margin-top: 0;
+    }
+}
+
+@media (--viewport-large) {
+    #site-header-main a {
+        padding: 2%;
+        max-width: 550px;
+        margin: 3%;
+    }
+
+    #global {
+        margin-top: 2%;
+    }
+
+    .content,
+    .content-services {
+        font-size: 1.7rem;
+    }
+    .content-bio {
+        font-size: 1.7rem;
+    }
+
+    .clients {
+        padding: 6rem 1rem 5rem 1rem;
+    }
+
+    h2 {
+        margin-bottom: 6rem;
+    }
+
+    section.clients ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section.clients li {
+        max-height: 200px;
+    }
+
+    section.clients li:nth-last-of-type(3) {
+        border-bottom: 1px solid #ccc;
+    }
+    #contact {
+        width: 30%;
+    }
+    #footer-nav {
+        width: 30%;
+        order: 0;
+    }
+    #social-media {
+        width: 30%;
+    }
+    #social-media ul li {
+        transform: scale(150%);
+    }
+    .f-brand a {
+        width: 50%;
+    }
+}
+@media (--viewport-extralarge) {
+    #global :any-link {
+        font-size: 1.4rem;
+    }
+    #global li {
+        margin: 0 1rem;
+    }
+}

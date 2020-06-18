@@ -1,0 +1,33 @@
+#site-header-main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.44)),
+        url(assets/derek-story-hDK78echCZg-unsplash.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 28rem;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    & a {
+        padding: 1rem;
+        width: 250px;
+        display: block;
+    }
+    @media (--medium) {
+        height: 50vh;
+        max-height: 375px;
+        min-height: 0;
+        background-size: cover;
+        position: sticky;
+        top: 0;
+        & a {
+            padding: 1rem;
+            width: 38%;
+            display: block;
+            transition: 0.2s;
+        }
+    }
+}

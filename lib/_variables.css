@@ -1,0 +1,17 @@
+:root {
+    --white: #f3f3f3;
+    --black: #000;
+    --red: #c2272c;
+
+    --font-size-base: 1.3rem;
+    --line-height-base: 150%;
+    --font-primary: myriad-pro, sans-serif;
+    --font-headings: clarendon-text-pro, serif;
+
+    --flight: 300;
+    --fnormal: 400;
+    --fbold: 700;
+}
+@custom-media --medium (width >= 748px);
+@custom-media --viewport-large (width >= 992px);
+@custom-media --viewport-extralarge (width >= 1200px);

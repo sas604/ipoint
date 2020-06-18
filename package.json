@@ -1,0 +1,22 @@
+{
+    "name": "website",
+    "version": "1.0.0",
+    "description": "Ipoint project",
+    "keywords": [],
+    "author": "Aleksandr Tagunov",
+    "license": "MIT",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "browsersync": "0.0.1-security",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-postcss": "^8.0.0",
+        "postcss": "^7.0.27"
+    },
+    "dependencies": {
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-util": "^3.0.8",
+        "postcss-partial-import": "^4.1.0",
+        "postcss-preset-env": "^6.7.0"
+    }
+}
